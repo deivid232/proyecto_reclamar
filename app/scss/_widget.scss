@@ -1,0 +1,348 @@
+.col-widget {
+  @media(max-width: $xl) {
+    margin-bottom: 2rem;
+  }
+}
+
+.fast-links-widget {
+  list-style-type: none;
+  li {
+    a {
+      color: rgba($white-low, 0.7);
+      font-size: 14px;
+      transition: all .1s linear;
+    }
+    a:hover {
+      color: $strict;
+    }
+  }
+  li:not(:last-child) {
+    border-bottom: 1px solid rgba($white-low, 0.3);
+  }
+}
+
+.news-widget {
+  .img-box {
+    width: 75px;
+    height: 75px;
+    img {
+      display: block;
+      width: inherit;
+      height: inherit;
+    }
+  }
+  .description {
+    a {
+      font-size: 14px;
+      color: $white-low;
+      transition: all .1s linear;
+    }
+    a:hover {
+      color: $strict;
+    }
+    p {
+      color: rgba($white-low, 0.3);
+      font-size: 14px;
+    }
+  }
+}
+
+.works-widget {
+  a {
+    margin-bottom: .75rem;
+    margin-right: .75rem;
+    display: block;
+    position: relative;
+    opacity: 0.8;
+    transition: all .2s linear;
+    img {
+      width: 75px;
+      height: 75px;
+    }
+  }
+  a:hover {
+    opacity: 1;
+  }
+}
+
+.contact-widget {
+  p {
+    color: rgba($white-low, 0.7);
+  }
+  .social-box {
+    div {
+      width: 30px;
+      height: 30px;
+      border: 1px solid rgba($white-low, 0.3);
+      transition: all .2s linear;
+      a {
+        width: 100%;
+        height: 100%;
+        i {
+          color: rgba($white-low, 0.3);
+          transition: all .2s linear;
+        }
+      }
+    }
+    div:hover {
+      border: 1px solid $strict;
+      i {
+        color: $strict;
+      }
+    }
+  }
+  .info-contact {
+    div {
+      width: 25px;
+      i {
+        color: $strict;
+      }
+    }
+    p {
+      color: rgba($white-low, 0.3);
+    }
+  }
+}
+
+.footer-title-widget {
+  span {
+    color: $strict;
+  }
+}
+
+.footer-subtitle-widget {
+  color: rgba($white-low, 0.7);
+}
+
+.card-news {
+  @media(max-width: $lg) {
+    margin-bottom: 30px;
+  }
+  @media(max-width: 500px) {
+    flex-direction: column;
+    width: 100%;
+    max-width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img-box {
+    img {
+      width: 200px;
+      height: 200px;
+      @media(max-width: 500px) {
+        width: 100%;
+        max-width: 580px;
+        height: auto;
+      }
+    }
+  }
+  .info-box {
+    position: relative;
+    background-color: $whitesmoke;
+    .description {
+      padding: 1rem;
+      a {
+        transition: all .2s linear;
+        color: $black;
+      }
+      a:hover {
+        color: $strict;
+      }
+      @media(max-width: 500px) {
+        margin-bottom: 2.5rem;
+      }
+    }
+    .footer-news {
+      padding: .5rem 1rem;
+      border-top: 1px solid $card-border-lg;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      p {
+        color: $gray-700;
+      }
+      i {
+        color: $gray-700;
+        font-size: 14px;
+        margin-right: .2rem;
+        margin-bottom: .2rem;
+      }
+    }
+  }
+}
+
+.flickr_badge_image {
+  display: inline;
+  img {
+    margin-right: .75rem;
+    margin-bottom: .75rem;
+    opacity: 0.8;
+    transition: all .2s linear;
+    cursor: pointer;
+  }
+  img:hover {
+    opacity: 1;
+  }
+}
+
+#flickr_badge_wrapper {
+  width: 300px;
+  text-align: left
+}
+
+.widget-tags-footer{
+  .btn-card{
+    padding: .4rem 1.25rem;
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+    color: $white;
+    border: 1px solid $strict;
+  }
+}
+
+.sidebar{
+  .search-widget {
+    form {
+      input[type="text"] {
+        border: 1px solid $gray-300;
+        background-color: $white;
+        padding: .5rem 1rem;
+        width: 85%;
+      }
+      input[type="text"]:focus {
+        border: 1px solid $strict;
+      }
+      button {
+        width: 15%;
+        background-color: $strict;
+        border: none;
+        cursor: pointer;
+        i {
+          color: $white;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .categories-widget {
+    margin-bottom: 2rem;
+    border: 1px solid $gray-300;
+    ul {
+      list-style-type: none;
+      li {
+        padding: .3rem 0;
+        i {
+          color: $strict;
+          margin-right: .5rem;
+        }
+        a {
+          color: $black;
+          margin-top: 3px;
+        }
+        a:hover {
+          color: $strict;
+          span {
+            color: $strict;
+          }
+        }
+      }
+      li:not(:last-child) {
+        border-bottom: 1px solid $gray-200;
+      }
+    }
+  }
+  .latest-posts-widget {
+    margin-bottom: 2rem;
+    .head-widget {
+      div {
+        width: 50%;
+        cursor: pointer;
+      }
+      :first-child {
+        border-bottom: 3px solid $strict;
+      }
+      :last-child {
+        border-bottom: 3px solid transparent;
+      }
+    }
+    .body {
+      border: 1px solid $gray-300;
+      .post-mini {
+        padding: 1rem 1.5rem;
+        @media(max-width: 500px) {
+          padding: 1rem;
+        }
+        img {
+          width: 75px;
+          height: 75px;
+        }
+        a {
+          margin-bottom: .25rem;
+          h6 {
+            color: $black;
+          }
+        }
+        a:hover {
+          h6 {
+            color: $strict;
+          }
+        }
+        span {
+          color: rgba($black, 0.7);
+          font-size: 14px;
+        }
+      }
+      .post-mini:not(:last-child) {
+        border-bottom: 1px solid $gray-200;
+      }
+      .popular {
+        display: none;
+      }
+    }
+  }
+  .widget-tags {
+    .btn-card {
+      border: 1px solid $strict;
+      margin-bottom: .5rem;
+      margin-right: .5rem;
+      padding: .4rem 1.25rem;
+    }
+  }
+  .blogs-list-widget {
+    ul {
+      li {
+        list-style-type: none;
+        padding: .3rem 0;
+        i {
+          font-size: 8px;
+          margin-right: .5rem;
+          color: $strict;
+        }
+        a {
+          color: $black;
+        }
+        a:hover {
+          color: $strict;
+        }
+      }
+      li:not(:last-child) {
+        border-bottom: 1px solid $gray-200;
+      }
+    }
+  }
+  .video-widget{
+    iframe{
+      width: 100%;
+      height: 180px;
+    }
+  }
+}
+
+.blog-widget {
+  margin-bottom: 2rem;
+  padding: 2rem 1.5rem;
+  border: 1px solid $gray-300;
+  @media(max-width: 500px) {
+    padding: 1rem;
+  }
+}

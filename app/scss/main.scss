@@ -1,0 +1,126 @@
+/*____Document map_____
+  Fonts
+  [1]Roboto
+
+  Main
+  [1] Bootstrap(core)
+  [2] General(common)
+  [3] Reset
+  [4] Widgets
+  [5] Header
+  [6] Preview
+  [7] Welcome Section
+  [8] Additional Contact Form
+  [9] Additional Section
+  [10] Testimonials
+  [11] Advisor
+  [12] Counters
+  [13] Latest News
+  [14] Information Section
+  [15] Send Newsletter Form
+  [16] Footer
+
+  Pages
+  [1] About Page
+  [2] Team
+  [3] Our Projects(services page include)
+  [4] FAQ
+  [5] Error
+
+  Blog
+  [1] Blog List View
+  [2] Blog Grid View
+  [3] Blog Single Post
+
+  Portfolio
+  [1] Portfolio 4 Columns
+  [2] Portfolio 2 Columns
+  [3] Portfolio Single Post
+
+  Elements
+  [1] Elements
+
+  Contacts
+  [1] Contacts
+_______________________*/
+
+/*Fonts*/
+/*[1]Roboto*/
+@import "fonts";
+
+/*Main*/
+/*[1] Bootstrap(core)*/
+@import "../bootstrap/scss/bootstrap";
+/*[2] General(common)*/
+@import "general";
+/*[3] Reset*/
+@import "default";
+/*[4] Widgets*/
+@import "widget";
+/*[5] Header*/
+@import "header";
+/*[6] Preview*/
+@import "preview-section";
+/*[7] Welcome Section*/
+@import "welcome-section";
+/*[8] Additional Contact Form*/
+@import "contact-mini";
+/*[9] Additional Section*/
+@import "additional-section";
+/*[10] Testimonials*/
+@import "testimonials";
+/*[11] Advisor*/
+@import "advisor";
+/*[12] Counters*/
+@import "counters";
+/*[13] Latest News*/
+@import "latest-news";
+/*[14] Information Section*/
+@import "information-section";
+/*[15] Send Newsletter Form*/
+@import "newsletter-section";
+/*[16] Footer*/
+@import "footer";
+
+
+/*Pages*/
+/*[1] About Page*/
+@import "about-page";
+/*[2] Team*/
+@import "team";
+/*[3] Our Projects(services page include)*/
+@import "our_projects";
+/*[4] FAQ*/
+@import "faq";
+/*[5] Error*/
+@import "error";
+
+
+/*Blog*/
+/*[1] Blog List View*/
+@import "blog-list-view";
+/*[2] Blog Grid View*/
+@import "blog-grid-view";
+/*[3] Blog Single Post*/
+@import "blog-single-page";
+
+
+/*Portfolio*/
+/*[1] Portfolio 4 Columns*/
+@import "portfolio-4-columns";
+/*[2] Portfolio 2 Columns*/
+@import "portfolio-2-columns";
+/*[3] Portfolio Single Post*/
+@import "portfolio-single";
+
+
+/*Elements*/
+/*[1] Elements*/
+@import "elements";
+
+
+/*Contacts*/
+/*[1] Contacts*/
+@import "contacts";
+
+

@@ -1,0 +1,21 @@
+footer {
+  order: 3;
+  background-color: #2c3038;
+  .widget-row {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+  .col-widget {
+    @media(max-width: $md) {
+      margin-bottom: 1.5rem;
+    }
+  }
+  .row-copyright {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    p {
+      color: rgba($white-low, 0.7);
+    }
+  }
+}

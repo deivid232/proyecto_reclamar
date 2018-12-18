@@ -1,0 +1,51 @@
+#faq {
+  #accordion {
+    h6 {
+      .btn-accord {
+        font-size: 16px;
+        color: $white;
+        display: block;
+        width: 100%;
+        padding: $card-spacer-y $card-spacer-x;
+      }
+    }
+  }
+  .about-box {
+    @media (max-width: $lg) {
+      margin-bottom: 2rem;
+    }
+  }
+  .form-title{
+      span{
+        color: $strict;
+      }
+  }
+  #form-questions {
+    input, textarea {
+      padding: .4rem 1rem;
+      background-color: $white;
+      border: 1px solid $gray-300;
+    }
+    input:focus,textarea:focus{
+      border: 1px solid $strict;
+    }
+    textarea {
+      resize: none;
+      height: 150px;
+    }
+    button {
+      background-color: $strict;
+      padding: .5rem 1rem;
+      font-size: 15px;
+      color: $white;
+      text-transform: uppercase;
+      cursor: pointer;
+      border: 2px solid $strict;
+      transition: all .2s linear;
+    }
+    button:hover {
+      background-color: transparent;
+      color: $strict;
+    }
+  }
+}

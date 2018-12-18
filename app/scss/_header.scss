@@ -1,0 +1,91 @@
+header {
+  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.15);
+  background-color: $gray-100;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  .top-bar{
+    height: 30px;
+    background-color: #2c3038;
+    transition: all .1s linear;
+    @media(max-width: $sm) {
+      height: 45px;
+    }
+    .container{
+      height:inherit;
+      @media (max-width: $lg) {
+        padding-left: 0;
+        padding-right: 0;
+      }
+      @media(max-width: $sm) {
+        flex-direction:column;
+        padding-top: 3px;
+      }
+      a{
+        color: rgba($white-low, 0.3);
+        font-size: 14px;
+        transition: all .2s linear;
+        i{
+          color: rgba($white-low, 0.3);
+          font-size: 14px;
+          transition: all .2s linear;
+        }
+      }
+      a:hover{
+        color: $strict;
+        i{
+          color: $strict;
+        }
+      }
+      .social-box{
+        a{
+          margin-right: .75rem;
+        }
+      }
+      .info-box{
+        i{
+          margin-right: .5rem;
+        }
+      }
+    }
+  }
+  .navbar {
+    padding: 0 $spacer;
+    .container {
+      .navbar-brand {
+        position: relative;
+      }
+      .navbar-toggler {
+        i {
+          font-size: 28px;
+          color: $strict;
+        }
+      }
+      .navbar-toggler:focus {
+        outline: none !important;
+      }
+      .navbar-nav {
+        .nav-item {
+          .nav-link {
+            transition: all .1s linear;
+            font-size: 15px !important;
+            @media(max-width: $lg){
+              padding: .75rem .75rem;
+            }
+            @media(min-width: $lg){
+              padding: 1.25rem .75rem;
+            }
+          }
+        }
+        .nav-item:hover {
+          .nav-link {
+            color: $strict;
+            i {
+              color: $strict;
+            }
+          }
+        }
+      }
+    }
+  }
+}

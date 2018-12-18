@@ -1,0 +1,21 @@
+#counters:before, .particle-home:before, .video-home:before {
+  background-color: rgba(0, 0, 0, 0); }
+.mb_YTPTime{}
+.buttonBar{
+margin-top: 10rem;
+margin-left: 10rem;
+
+  color: white;
+}
+
+.contactos-servicios{
+background-color: #f8f8f8 !important;
+}
+.posts-servicios{
+background-color: white !important;
+}
+
+.head-servivios{
+  margin: 16vh 0 0 0;
+  background-color: #f8f8f8 !important;
+}

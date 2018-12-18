@@ -1,0 +1,19 @@
+#welcome-section {
+  .img-col {
+    @media(max-width: $xl) {
+      margin-bottom: 2rem;
+    }
+  }
+  .info-col {
+    div {
+      p {
+        padding-left: .5rem;
+        font-size: 16px;
+      }
+      i {
+        font-size: 18px;
+        color: $strict;
+      }
+    }
+  }
+}

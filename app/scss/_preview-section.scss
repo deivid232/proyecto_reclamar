@@ -1,0 +1,28 @@
+#home-section{
+  height: 100vh;
+  .container{
+    z-index:11;
+    position: relative;
+    h1{
+      text-align: center;
+      @media(max-width: $sm) {
+        font-size: 28px!important;
+      }
+    }
+    p{
+      color: rgba($white, 0.9);
+      max-width: 900px;
+      text-align: center;
+      line-height: 1.7;
+      font-size: 17px;
+      @media(max-width: $sm) {
+        font-size: 15px;
+      }
+    }
+    .btn-box{
+      .btn-card{
+        color: rgba($white, 0.9);
+      }
+    }
+  }
+}

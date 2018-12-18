@@ -1,0 +1,39 @@
+#testimonials {
+  @media(min-width: $sm) {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  @media(max-width: $lg) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .testimonial-box {
+    p {
+      color: $white-low;
+    }
+    h2 {
+      span {
+        border-bottom: 1px solid $white;
+      }
+    }
+    .testimonial {
+      padding: 2rem;
+      border: 1px solid $white;
+      @media(max-width: $md) {
+        padding: 1rem;
+      }
+
+    }
+    .autor {
+      p {
+        color: $white-low;
+      }
+      .photo {
+        width: 75px;
+        height: 75px;
+        border-radius: 100%;
+        overflow: hidden;
+      }
+    }
+  }
+}

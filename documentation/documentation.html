@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="html template">
+    <meta name="author" content="JD-Themes">
+    <!--color theme of the status-bar (Chrome, Firefox OS and Opera)-->
+    <meta name="theme-color" content="#0288d1">
+    <!--iOS safari status-bar-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-transcluent">
+    <!--windows phone status-bar-->
+    <meta name="msapplication-navbutton-color" content="#0288d1">
+    <meta name="msapplication-TileColor" content="#0288d1">
+    <!--favicon-->
+    <!--page title-->
+    <title>Documentation</title>
+    <!--сonnecting css files-->
+    <!--roboto(font)-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <!--font-awesome-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--core(bootstrap)-->
+    <link rel="stylesheet" href="css/core.css">
+    <!--main css(custom)-->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!--page wrapper-->
+<main id="wrapper">
+    <div class="info">
+        <div class="container info-box d-flex flex-column justify-content-center">
+            <h2 class="font-weight-bold mb-1">S<span>t</span>rict</h2>
+            <h6 class="mb-0"><i class="fa fa-clock-o mr-1"></i>Last Updated: 18.10.2017</h6>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row doc-row">
+            <div class="col-lg-3">
+                <ul class="menu-navigation pl-0">
+                    <li><a href="#support" data-link="1">Support</a></li>
+                    <li><a href="#folder-org" data-link="2">Files and folders organization</a></li>
+                    <li><a href="#installation" data-link="3">Template Installation</a></li>
+                    <li><a href="#navbar" data-link="4">Navbar</a></li>
+                    <li><a href="#home-page-var" data-link="5">Variations of the homepage</a></li>
+                    <li><a href="#home-page-edit" data-link="6">How to edit homepage</a></li>
+                    <li><a href="#content-edit" data-link="7">How to edit content</a></li>
+                    <li><a href="#counters" data-link="8">How to edit counters</a></li>
+                    <li><a href="#portfolio" data-link="9">How to edit portfolio</a></li>
+                    <li><a href="#blog-var" data-link="10">Variations of the blog</a></li>
+                    <li><a href="#edit-blog" data-link="11">How to edit blog</a></li>
+                    <li><a href="#portfolio-var" data-link="11">Variations of the portfolio</a></li>
+                    <li><a href="#edit-portfolio" data-link="12">How to edit portfolio grid</a></li>
+                    <li><a href="#parallax" data-link="13">How to edit parallax background</a></li>
+                    <li><a href="#sidebar" data-link="14">How to edit sidebar</a></li>
+                    <li><a href="#google-map" data-link="15">How to edit Google map</a></li>
+                    <li><a href="#footer" data-link="16">Footer</a></li>
+                    <li><a href="#source" data-link="17">Libraries Plugins Sources</a></li>
+                </ul>
+            </div>
+            <div class="col-lg doc-wrapper">
+                <section id="support">
+                    <h2 class="font-weight-bold title-doc mb-3">Support</h2>
+                    <div class="doc-box mb-3">
+                        <p class="mb-1">Thank you very much for purchasing my template! I worked very hard to create it.
+                            I hope you
+                            like it. Concerning the documentation, I tried to make it understandable and simple.</p>
+                        <p class="mb-1">If you have any questions or problems that aren't answered here, please feel
+                            free to email us.</p>
+                        <p>I'm very happy to hear your feedback - if you find any mistakes or suggestions for
+                            improvement, contact me. Almost the entire time I follow your advice.</p>
+                        <div class="alert alert-primary">
+                            <p class="mb-0">If you like our work, please rate it. If you’re about to rate it with less
+                                than 5 stars,
+                                please let us know the reason first and we will do our best to improve the theme. Thanks
+                                so much!</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="folder-org">
+                    <h2 class="font-weight-bold title-doc mb-3">Files and folders organization</h2>
+                    <div class="doc-box mb-3">
+                        <span class="d-flex align-items-center mb-1">
+                            <i class="fa fa-folder mr-1"></i>
+                            <p class="mb-0"><span class="font-weight-bold">app</span> - source files</p>
+                        </span>
+                        <div class="ml-3">
+                            <span class="d-flex align-items-center mb-1">
+                                <i class="fa fa-folder mr-1"></i>
+                                <p class="mb-0"><span class="font-weight-bold">bootstrap</span> - bootstrap core</p>
+                            </span>
+                            <span class="d-flex align-items-center mb-1">
+                                <i class="fa fa-folder mr-1"></i>
+                                <p class="mb-0"><span class="font-weight-bold">scss</span> - custom scss modules</p>
+                            </span>
+                            <div class="ml-3">
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_about-page.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_additional-section.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_advisor.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_blog-grid-view.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_blog-list-view.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_blog-single-page.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_contact-mini.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_contacts.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_counters.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_default.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_elements.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_error.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_faq.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_footer.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_general.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_header.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_information-section.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_latest-news.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_newsletter-section.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_our_projects.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_portfolio-2-columns.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_portfolio-single.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_preview-section.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_team.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_testimonials.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_welcome-section.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_preview-section.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">_widget.scss</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">main.scss</span></p>
+                                </span>
+                            </div>
+                        </div>
+                        <span class="d-flex align-items-center">
+                            <i class="fa fa-folder mr-1"></i>
+                            <p class="mb-0"><span class="font-weight-bold">dist</span> - project</p>
+                        </span>
+                        <div class="ml-3">
+                            <span class="d-flex align-items-center mb-1">
+                                <i class="fa fa-folder mr-1"></i>
+                                <p class="mb-0"><span class="font-weight-bold">css</span> - css files</p>
+                            </span>
+                            <div class="ml-3">
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">bootstrap.css</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">font-awesome.min.css</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">main.css</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">owl.carousel.css</span></p>
+                                </span>
+                                <span class="d-flex align-items-center mb-1">
+                                    <i class="fa fa-css3 mr-1"></i>
+                                    <p class="mb-0"><span class="font-weight-bold">owl.theme.default.css</span></p>
+                                </span>
+                            </div>
+                            <span class="d-flex align-items-center mb-1">
+                                <i class="fa fa-folder mr-1"></i>
+                                <p class="mb-0"><span class="font-weight-bold">fonts</span> - fonts</p>
+                            </span>
+                            <span class="d-flex align-items-center mb-1">
+                                <i class="fa fa-folder mr-1"></i>
+                                <p class="mb-0"><span class="font-weight-bold">img</span> - images</p>
+                            </span>
+                            <span class="d-flex align-items-center mb-1">
+                                <i class="fa fa-folder mr-1"></i>
+                                <p class="mb-0"><span class="font-weight-bold">js</span> - javascript files</p>
+                            </span>
+                            <div class="ml-3">
+                                    <span class="d-flex align-items-center mb-1">
+                                        <i class="fa fa-code mr-1"></i>
+                                        <p class="mb-0"><span class="font-weight-bold">bootstrap.js</span></p>
+                                    </span>
+                                <span class="d-flex align-items-center mb-1">
+                                        <i class="fa fa-code mr-1"></i>
+                                        <p class="mb-0"><span class="font-weight-bold">countUp.min.js</span></p>
+                                    </span>
+                                <span class="d-flex align-items-center mb-1">
+                                        <i class="fa fa-code mr-1"></i>
+                                        <p class="mb-0"><span class="font-weight-bold">imageloaded.js</span></p>
+                                    </span>
+                                <span class="d-flex align-items-center mb-1">
+                                        <i class="fa fa-code mr-1"></i>
+                                        <p class="mb-0"><span class="font-weight-bold">jquery.mb.YTPlayer.min.js</span></p>
+                                    </span>
+                                <span class="d-flex align-items-center mb-1">
+                                        <i class="fa fa-code mr-1"></i>
+                                        <p class="mb-0"><span class="font-weight-bold">jquery.shuffle.min.js</span></p>
+                                    </span>
+                                <span class="d-flex align-items-center mb-1">
+                                        <i class="fa fa-code mr-1"></i>
+                                        <p class="mb-0"><span
+                                                class="font-weight-bold">jquery.waypoints.min.js</span></p>
+                                    </span>
+                                <span class="d-flex align-items-center mb-1">
+                                        <i class="fa fa-code mr-1"></i>
+                                        <p class="mb-0"><span class="font-weight-bold">jquery-3.2.1.min.js</span></p>
+                                    </span>
+                                <span class="d-flex align-items-center mb-1">
+                                        <i class="fa fa-code mr-1"></i>
+                                        <p class="mb-0"><span class="font-weight-bold">main.js</span></p>
+                                    </span>
+                                <span class="d-flex align-items-center mb-1">
+                                        <i class="fa fa-code mr-1"></i>
+                                        <p class="mb-0"><span class="font-weight-bold">owl.carousel.min.js</span></p>
+                                    </span>
+                                <span class="d-flex align-items-center mb-1">
+                                        <i class="fa fa-code mr-1"></i>
+                                        <p class="mb-0"><span class="font-weight-bold">parallax.js</span></p>
+                                    </span>
+                                <span class="d-flex align-items-center mb-1">
+                                        <i class="fa fa-code mr-1"></i>
+                                        <p class="mb-0"><span class="font-weight-bold">particle-config.js</span></p>
+                                    </span>
+                                <span class="d-flex align-items-center mb-1">
+                                        <i class="fa fa-code mr-1"></i>
+                                        <p class="mb-0"><span class="font-weight-bold">particles.min.js</span></p>
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="installation">
+                    <h2 class="font-weight-bold title-doc mb-3">Template Installation</h2>
+                    <div class="doc-box mb-3">
+                        <p class="mb-2">
+                            Once you've downloaded the archive file on <b>TemplateMonster</b>, extract it and locate a
+                            file called
+                            <span class="quote-box mb-0">strict.zip</span>. You can move direcory <span
+                                class="quote-box">dist</span> on hosting by using <a
+                                href="https://filezilla-project.org/">FTP client</a>.
+                        </p>
+                        <h6>FTP upload</h6>
+                        <div class="alert alert-primary">
+                            <p class="mb-2">1. Using FTP client, login to the server where your website is
+                                hosted.</p>
+                            <p class="mb-0">2. Using FTP client, move directory <span
+                                    class="quote-box mb-0">dist</span> to the website root directory.</p>
+                        </div>
+
+                        <p class="mb-0">Once installation is complete, your <span
+                                class="font-weight-medium">Strict</span> template will be ready to the
+                            settings.
+                            Download and setup the code editor like a <a
+                                    href="https://notepad-plus-plus.org/download/v7.4.2.html">Notepad++</a> and open
+                            template with editor.</p>
+
+                    </div>
+                </section>
+                <section id="navbar">
+                    <h2 class="font-weight-bold title-doc mb-3">Navbar</h2>
+                    <div class="doc-box mb-3">
+                        <h4>Logotype</h4>
+                        <span class="d-flex"><p class="mb-0 mr-1 font-weight-medium">
+                            Logo path:</p><code>header > .navbar > .container > .navbar-brand > img</code></span>
+                        <p class="mb-3">
+                            You can change the logo by changing the value of the <code>src</code>
+                            attribute in the img tag,
+                            specifying the path to the logo in it.
+                        </p>
+                        <h4>Menu</h4>
+                        <span class="d-flex"><p class="mb-0 mr-1 font-weight-medium">
+                            Menu path:</p><code>header > .navbar > .container > .collapse > .navbar-nav > .nav-link</code></span>
+                        <p class="mb-3">You can add,delete or edit menu items by copy/paste source code (for example,
+                            you
+                            can change
+                            the
+                            link by changing the value of the <code>href</code> attribute in the tags
+                            <code>&lt;a&gt;</code>).
+                        </p>
+                        <h4>Top bar</h4>
+                        <span class="d-flex"><p class="mb-0 mr-1 font-weight-medium">Top bar path:</p><code>header > .top-bar</code></span>
+                        <p class="mb-1">You can change links to social networks as well as contact information, for this
+                            change the values of the attribute <code>src</code> in the tags <code>&lt;a&gt;</code>.
+                        </p>
+                        <div class="alert alert-primary">
+                            <p class="mb-0">Also you can change the link icon by changing the value of the
+                                <code>class</code> attribute
+                                in the <code>&lt;i&gt;</code> tag. Icons can be taken here <a
+                                        href="http://fontawesome.io/icons/">Font awesome</a>.</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="home-page-var">
+                    <h2 class="font-weight-bold title-doc mb-3">Variations of the homepage </h2>
+                    <div class="doc-box mb-3">
+                        <h6>Template contains:</h6>
+                        <div class="alert alert-primary">
+                            <p class="mb-2">1. Default Homepage - file <i class="fa fa-html5"></i> <b>index.html</b></p>
+                            <p class="mb-2">2. Slider Homepage - file <i class="fa fa-html5"></i> <b>home-variation-slider.html</b>
+                            </p>
+                            <p class="mb-2">3. Particles Homepage - file <i class="fa fa-html5"></i> <b>home-variations-particles.html</b>
+                            </p>
+                            <p class="mb-0">4. Video Homepage - file <i class="fa fa-html5"></i> <b>home-variation-youtube-video.html</b>
+                            </p>
+                        </div>
+                        <p class="mb-0">Select one of these pages and rename it to the <code>index.html</code>, others
+                            no longer needed , you can delete their.</p>
+                    </div>
+                </section>
+                <section id="home-page-edit">
+                    <h2 class="font-weight-bold title-doc mb-3">How to edit homepage</h2>
+                    <div class="doc-box mb-3">
+                        <h4>How to edit default homepage</h4>
+                        <span class="d-flex"><p class="mb-0 mr-1 font-weight-medium">
+                            Default homepage content path:</p><code>#home-section > .text-wrapper</code></span>
+                        <p class="mb-0">You can change the text on the home page by searching for the
+                            <code>&lt;p&gt;</code> or
+                            <code>&lt;h1&gt;</code> tag and changing its contents.</p>
+                        <p class="mb-1">Also you can change the button link and the text inside it by changing the value
+                            of the
+                            <code>src</code>
+                            attribute in the tag <code>&lt;a class="btn-card"&gt;</code>.</p>
+                        <div class="alert alert-primary mb-3">
+                            <p class="mb-0">To change the background of the home page, change the value of the <code>style
+                                = "path"</code>
+                                attribute of the <code>&lt;section&gt;</code> tag.</p>
+                        </div>
+                        <h4>How to edit slider homepage</h4>
+                        <span class="d-flex mb-1"><p class="mb-0 mr-1 font-weight-medium">
+                            Slider homepage content path:</p><code>#home-section > #owl-home > .item > .container</code></span>
+                        <div class="alert alert-primary mb-3">
+                            <p class="mb-0">You can change the slides by changing the contents of the <code>&lt;div
+                                class="item"&gt;</code> tags.</p>
+                        </div>
+                        <h4>How to edit particles homepage</h4>
+                        <span class="d-flex"><p class="mb-0 mr-1 font-weight-medium">
+                            Particles homepage path:</p><code>#home-section > .particles</code></span>
+                        <p class="mb-3">You can create your particles here <a
+                                href="http://vincentgarreau.com/particles.js/">Particles editor</a>, then copy the
+                            config and paste it into the <code>json</code> constant in the <span
+                                    class="quote-box">config-particles.js</span> file.</p>
+                        <h4>How to edit video homepage</h4>
+                        <span class="d-flex"><p class="mb-0 mr-1 font-weight-medium">
+                            Video homepage path:</p><code>#home-section > .player</code></span>
+                        <p>You can change the video on the main page by changing the value of the date-attribute
+                            <code>data-property</code> (<code>videoURL: ''</code>) of the tag <code>&lt;div
+                                class="player"&gt;</code>.</p>
+                    </div>
+                </section>
+                <section id="content-edit">
+                    <h2 class="font-weight-bold title-doc mb-3">How to edit content</h2>
+                    <div class="doc-box mb-3">
+                        <div class="alert alert-primary">
+                            <p class="mb-0">
+                                The documentation will not describe the actions that are repeated, so in all text
+                                sections, the content changes in the same way. You can change the text by changing the
+                                contents of the tags <code>p</code>, <code>a</code>, <code>span</code>, <code>h1</code>,
+                                <code>h2</code>, <code>h3</code>, <code>h4</code>, <code>h5</code>, <code>h6</code>,
+                                <code>button</code>. Also, you can change
+                                the picture by changing the value of the <code>href = "path"</code> attribute of the
+                                <code>img</code> tags. To
+                                change the references, change the value of the <code>href</code> attribute in the <code>a</code>
+                                tag.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="counters">
+                    <h2 class="font-weight-bold title-doc mb-3">How to edit counters</h2>
+                    <div class="doc-box mb-3">
+                        <p>You can change the counters, for this go to <span class="quote-box">main.js</span> file, find
+                            the
+                            item <span
+                                    class="font-weight-medium">[1]
+                        Variable Declarations</span>, and in it the
+                            object <code>counters</code>, in it you will find 4 functions, each of which is responsible
+                            for
+                            its counter.
+                            You can change the final counter digit by changing the third argument of the function to
+                            your
+                            own.</p>
+                    </div>
+                </section>
+                <section id="portfolio">
+                    <h2 class="font-weight-bold title-doc mb-3">How to edit portfolio</h2>
+                    <div class="doc-box mb-3">
+                    <span class="d-flex"><p class="mb-0 mr-1 font-weight-medium">
+                            Filter buttons path:</p><code>.portfolio-wrapper > .btn-filter-box</code></span>
+                        <span class="d-flex"><p class="mb-0 mr-1 font-weight-medium">
+                            Portfolio path:</p><code>.portfolio-wrapper > .grid</code></span>
+                        <div class="alert alert-primary">
+                            <p class="mb-0">
+                                You can add, delete or edit the elements of the portfolio. For example, you can change
+                                the
+                                name of one of the portfolio filters by changing the contents of element
+                                <code>&lt;a&gt;</code>, and all the
+                                relevant names in the <span class="quote-box">main.js</span> file in item <span
+                                    class="font-weight-medium">[5] Images Loaded (Shuffle Filter)</span>.
+                                You can give the elements of the <code>&lt;div class="mesh-element"&gt;</code> portfolio
+                                the
+                                date attribute <code>data-group =
+                                "filter_name"</code>, in order to include it in the filtering.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="blog-var">
+                    <h2 class="font-weight-bold title-doc mb-3">Variations of the blog</h2>
+                    <div class="doc-box mb-3">
+                        <h6>Template contains:</h6>
+                        <div class="alert alert-primary">
+                            <p class="mb-2">1. Default Blog - file <i class="fa fa-html5"></i>
+                                <b>blog-list-view.html</b></p>
+                            <p class="mb-2">2. Grid Blog - file <i class="fa fa-html5"></i> <b>blog-grid-view.html</b>
+                            </p>
+                            <p class="mb-2">Single Post - file <i class="fa fa-html5"></i> <b>blog-single-page.html</b>
+                            </p>
+                        </div>
+                        <p class="mb-0">Select one of the two pages and rename it to the <code>blog.html</code>,
+                            others
+                            no longer needed , you can delete their.</p>
+                    </div>
+                </section>
+                <section id="edit-blog">
+                    <h2 class="font-weight-bold title-doc mb-3">How to edit blog</h2>
+                    <div class="doc-box mb-3">
+                        <p class="mb-0">You can change the content of the post in the list, for example, change the
+                            image or description, as described
+                            <a href="#content-edit" data-link="1">here</a>.</p>
+                    </div>
+                </section>
+                <section id="portfolio-var">
+                    <h2 class="font-weight-bold title-doc mb-3">Variations of the portfolio</h2>
+                    <div class="doc-box mb-3">
+                        <h6>Template contains:</h6>
+                        <div class="alert alert-primary">
+                            <p class="mb-2">1. Four Columns Portfolio - file <i class="fa fa-html5"></i>
+                                <b>portfolio-4-columns.html</b></p>
+                            <p class="mb-2">2. Two Columns Portfolio - file <i class="fa fa-html5"></i> <b>portfolio-2-columns.html</b>
+                            </p>
+                            <p class="mb-2">Single Project - file <i class="fa fa-html5"></i> <b>portfolio-single.html</b>
+                            </p>
+                        </div>
+                        <p class="mb-0">Select one of the two pages and rename it to the <code>blog.html</code>,
+                            others
+                            no longer needed , you can delete their.</p>
+                    </div>
+                </section>
+                <section id="edit-portfolio">
+                    <h2 class="font-weight-bold title-doc mb-3">How to edit portfolio grid</h2>
+                    <div class="doc-box mb-3">
+                        <div class="alert alert-primary">
+                            <p class="mb-0">You can add, delete or edit the elements of the portfolio grid. For
+                                example, you can add
+                                a new mesh-element element as described <a href="#portfolio" data-link="2">here</a>.
+                                After that you can set the element <code>&lt;a class="action-btn"&gt;</code>
+                                the following date attributes
+                                <code>data-toggle = "modal" data-target = "# modal-project1" data-image = "path"
+                                    data-title = "Project title 1"</code>. This allows you to open an image in the modal
+                                window.</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="parallax">
+                    <h2 class="font-weight-bold title-doc mb-3">How to edit parallax background</h2>
+                    <div class="doc-box mb-3">
+                        <p>You can change the parallax of the image, for this go to the <span
+                                class="quote-box">main.js</span> file and look for <span
+                                class="font-weight-medium">[4] Parallax</span>, and
+                            then change the value of <code>imageSrc</code> to your own.</p>
+                    </div>
+                </section>
+                <section id="sidebar">
+                    <h2 class="font-weight-bold title-doc mb-3">How to edit sidebar</h2>
+                    <div class="doc-box mb-3">
+                        <span class="d-flex"><p class="mb-0 mr-1 font-weight-medium">
+                            Sidebar path:</p><code>#blog-list-section > .container .row .sidebar</code></span>
+                        <p class="mb-0">You can add, delete or edit the contents of the sidebar, for example you can
+                            change the
+                            content of the video widget, for this, find the <code>&lt;div class="video
+                                widget"&gt;</code> and the <code>&lt;iframe&gt;</code> in it, and
+                            replace it with the one you get in youtube, as you can see <a
+                                    href="https://www.w3schools.com/html/html_youtube.asp">here</a>.</p>
+                    </div>
+                </section>
+                <section id="google-map">
+                    <h2 class="font-weight-bold title-doc mb-3">How to edit Google map</h2>
+                    <div class="doc-box mb-3">
+                        <p>In order to edit the google map, you need to go to the <span class="quote-box">main.js</span>
+                            file and find there the item
+                            <span class="font-weight-medium">[14] Google Map</span>, then change the coordinates
+                            according
+                            to the instructions that you can find
+                            <a href="https://developers.google.com/maps/documentation/javascript/adding-a-google-map?hl=ru">here</a>.
+                        </p>
+                    </div>
+                </section>
+                <section id="footer">
+                    <h2 class="font-weight-bold title-doc mb-3">Footer</h2>
+                    <div class="doc-box mb-3">
+                        <span class="d-flex"><p class="mb-0 mr-1 font-weight-medium">
+                            Footer widgets path:</p><code>footer > .container > .widget-row</code></span>
+                        <p class="mb-0">
+                            You can add, delete or edit widgets in a footer. For example, to change the flickr
+                            widget you need to go here <a href="http://www.flickrbadge.com/">flickr badge</a>,
+                            create a badge and copy only
+                            <code>&lt;div id="flickr_badge_wrapper"&gt;</code> and paste it into <code>&lt;div
+                            class="col-flickr"&gt;</code>.
+                        </p>
+                    </div>
+                </section>
+                <section id="source">
+                    <h2 class="font-weight-bold title-doc mb-3">Libraries Plugins Sources</h2>
+                    <div class="doc-box source-list d-flex flex-column">
+                        <h4>In Strict i used:</h4>
+                        <span><a href="https://getbootstrap.com/">Bootstrap 4</a></span>
+                        <span><a href="https://jquery.com/">Jquery.js</a></span>
+                        <span><a href="https://modernizr.com/">Modernizr.js</a></span>
+                        <span><a href="https://github.com/pupunzi/jquery.mb.YTPlayer">YTPlayer.js</a></span>
+                        <span><a href="https://inorganik.github.io/countUp.js/">CountUp.js</a></span>
+                        <span><a href="https://imagesloaded.desandro.com/">Imageloaded.js</a></span>
+                        <span><a href="http://imakewebthings.com/waypoints/">Waypoints.js</a></span>
+                        <span><a href="https://owlcarousel2.github.io/OwlCarousel2/">Owl Carousel</a></span>
+                        <span><a href="http://pixelcog.github.io/parallax.js/">Parallax.js</a></span>
+                        <span><a href="https://vestride.github.io/Shuffle/">Shuffle.js</a></span>
+                        <span><a href="http://vincentgarreau.com/particles.js/">Particles.js</a></span>
+                        <span><a href="http://fontawesome.io/">Font Awesome</a></span>
+                        <span><a href="https://fonts.google.com/specimen/Roboto">Roboto</a></span>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="footer-box d-flex justify-content-center align-items-center">
+        <p class="mb-0 font-weight-bold">Cheers & Thanks again for your purchase! Powered by <span class="font-weight-black">JD-Themes</span></p>
+    </div>
+</main>
+
+<!--connecting js files-->
+<!--jQuery-->
+<script src="js/jquery-3.2.1.min.js"></script>
+<!--waypoints.js-->
+<script src="js/jquery.waypoints.min.js"></script>
+<!--bootstrap.js-->
+<script src="js/bootstrap.js"></script>
+<!--custom js-file-->
+<script src="js/main.js"></script>
+</body>
+</html>

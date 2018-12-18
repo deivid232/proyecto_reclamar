@@ -1,0 +1,122 @@
+* {
+  font-family: Roboto;
+  color: $black;
+  outline: none !important;
+}
+
+body {
+  overflow-x: hidden !important;
+  @media(min-width: $sm) {
+    font-size: 15px;
+  }
+  @media(max-width: $sm) {
+    font-size: $font-size-sm;
+  }
+}
+
+iframe{
+  border: none;
+}
+
+section {
+  position: relative;
+}
+
+.nav-link:after {
+  display: none !important;
+}
+
+#welcome-section, .contact-box, #our-staffs, #recent-posts,
+#testimonials, #about-us, #info-us, #blog-list-section,
+#choose-us, #faq, #additional-section, #latest-news, #capabilities,
+#advisor, #services, #latest-news, #team, #about-team, #our-projects, #blog-grid-section,
+#blog-single-section, #four-columns-portfolio, #two-columns-portfolio,
+#project-single-section, #elements, #contacts {
+  @media(min-width: $lg) {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  @media(max-width: $lg) {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+#welcome-section, #latest-news, #team, #faq, #blog-list-section,
+#advisor, #our-projects, #recent-posts, #four-columns-portfolio, #two-columns-portfolio,
+#project-single-section, #elements, #contacts {
+  background-color: $white;
+}
+
+#services, #capabilities, #recent-posts, #about-team, #send-newsletter {
+  background-color: $whitesmoke;
+}
+
+.image-col, #counters, #info-section, #error {
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.particle-home {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#owl-home {
+  .item {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+#breadcrumbs, #info-us, #additional-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  @media(min-width: $sm) {
+    background-attachment: fixed;
+  }
+}
+
+#info-section:before, .video-home:before, #owl-home .item:before, #testimonials:before, #counters:before,
+.parallax-window:before, .image-col:before, #breadcrumbs:before,
+#info-us:before, #additional-section:before, #error:before, .particle-home:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.video-home:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  background-color: $transparent-box-black-full;
+}
+
+#counters:before, .particle-home:before, .video-home:before {
+  background-color: $transparent-box-black-full;
+}
+
+#testimonials:before, #info-section:before {
+  background-color: $transparent-box-black;
+}
+
+.parallax-window:before, .image-col:before,
+#breadcrumbs:before, #info-us:before,
+#additional-section:before, #error:before, #owl-home .item:before {
+  background-color: $transparent-box-black-lg;
+}
+
+

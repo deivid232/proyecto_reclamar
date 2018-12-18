@@ -1,0 +1,15 @@
+#about-team {
+  @media(max-width: $lg) {
+    img{
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+#team {
+  .divider {
+    @media(min-width: $lg) {
+      margin-bottom: 30px;
+    }
+  }
+}

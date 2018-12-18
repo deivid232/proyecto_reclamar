@@ -1,0 +1,7 @@
+#latest-news {
+  .top-col{
+    @media(min-width: $lg) {
+      margin-bottom: 30px;
+    }
+  }
+}

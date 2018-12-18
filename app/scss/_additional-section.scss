@@ -1,0 +1,20 @@
+#additional-section {
+  .container {
+    z-index: 16;
+    position: relative;
+    h1{
+      span{
+        color: $strict;
+      }
+      @media(max-width: $md) {
+        font-size: 36px;
+      }
+      @media(max-width: $sm) {
+        font-size: 28px;
+      }
+    }
+    .btn-card {
+      color: $white;
+    }
+  }
+}

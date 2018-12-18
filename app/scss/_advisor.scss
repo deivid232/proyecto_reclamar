@@ -1,0 +1,21 @@
+#advisor {
+  .img-box {
+    position: relative;
+    div {
+      position: absolute;
+      top: 1rem;
+      left: 2rem;
+      width: calc(100% - 4rem);
+      height: calc(100% - 2rem);
+      border: 1px solid $white;
+    }
+  }
+  .info-box {
+    @media(min-width: $lg) {
+      padding-right: 2rem;
+    }
+    h6 {
+      color: rgba($black, 0.3);
+    }
+  }
+}

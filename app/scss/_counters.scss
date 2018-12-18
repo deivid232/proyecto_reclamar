@@ -1,0 +1,26 @@
+#counters {
+  .counters-row {
+    padding-bottom: 2rem;
+    .col-bg {
+      @media(min-width: $lg) {
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+      }
+      @media(max-width: $lg) {
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+      }
+      .counter {
+        font-size: 42px;
+        color: $white;
+      }
+      i{
+        font-size: 42px;
+        color: $strict;
+      }
+      h5 {
+        color: $white-low;
+      }
+    }
+  }
+}

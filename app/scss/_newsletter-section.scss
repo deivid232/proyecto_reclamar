@@ -1,0 +1,48 @@
+#send-newsletter {
+  background-color: $whitesmoke;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  h3 {
+    color: $black;
+    span {
+      color: $strict;
+    }
+    @media(max-width: $md) {
+      text-align: center;
+    }
+  }
+  p {
+    font-size: 16px;
+    color: $gray-600;
+    @media(max-width: $md) {
+      text-align: center;
+      margin-bottom: 2rem !important;
+    }
+  }
+  .form-subscribe {
+    @media(max-width: $md) {
+      justify-content: center !important;
+    }
+    input {
+      border-top: 1px solid $gray-300;
+      border-bottom: 1px solid $gray-300;
+      border-left: 1px solid $gray-300;
+      border-right: none;
+      background-color: $white;
+      padding: 10px 10px;
+      width: 250px;
+    }
+    button {
+      padding: 10px 10px;
+      width: 100px;
+      border: 1px solid $gray-300;
+      color: $white;
+      background-color: rgba($strict, 0.6);
+      cursor: pointer;
+      transition: all .2s linear;
+    }
+    button:hover {
+      background-color: rgba($strict, 1);
+    }
+  }
+}
