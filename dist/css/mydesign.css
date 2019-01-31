@@ -16,6 +16,29 @@ background-color: white !important;
 }
 
 .head-servivios{
-  margin: 16vh 0 0 0;
+  margin: 5vh 0 0 0;
   background-color: #f8f8f8 !important;
+}
+.titulos-servicios{
+  margin: 0 0 0 0;
+}
+.fotos-servicios{
+  margin: 0 0 0 0;
+}
+.respuestas{
+  padding: 12vh 0 0 0;
+}
+.respuestas_final{
+  padding: 12vh 0 10vh 0;
+}
+#tamaño-minimo{
+  min-height: 100vh !important;
+
+}
+.service-box .service{
+  min-height: 100vh;
+
+}
+.position-bottom{
+  
 }

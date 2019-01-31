@@ -161,13 +161,14 @@
                     class="font-weight-black"> Servicios</span></h2>
             <div class="row">
                 <div class="col-lg-4 col-md-6 service-box">
-                    <div class="service">
+                    <div class="service" id="tamaño-minimo">
                         <div class="header-service d-flex align-items-center">
                             <i class="fa fa-bar-chart"></i><i class="fas fa-ambulance"></i>
                             <h5 class="mb-0 ml-2">Aereolineas y Agencias de viajes</h5>
                         </div>
                         <div class="service-body">
-                            <p class="mb-0">¿Se atrasó o canceló el vuelo? <br>
+                            <p class="mb-0">
+                              ¿Se atrasó o canceló el vuelo? <br>
                               ¿Te cobraron demás?<br>
                               ¿Fueron distintas las condiciones del viaje a las pactadas? <br>
                               ¿Se produjeron situaciones de violencia o discriminación?
@@ -189,7 +190,7 @@
                             ¿Te obligaron a vacacionar en otras condiciones?<br>
                             ¿Se produjeron situaciones de violencia o discriminación?
                           </p>
-                          <a class="nav-link font-weight-medium btn btn-info" href="1hoteles.html">Informate</a>
+                          <a class="nav-link font-weight-medium btn btn-info position-bottom" href="1hoteles.html">Informate</a>
                         </div>
                         <div class="anim-bar"></div>
                     </div>
