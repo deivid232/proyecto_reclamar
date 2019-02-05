@@ -29,7 +29,7 @@ background-color: white !important;
   padding: 12vh 0 0 0;
 }
 .respuestas_final{
-  padding: 12vh 0 10vh 0;
+  padding: 12vh 0 0 0;
 }
 #tamaño-minimo{
   min-height: 100vh !important;
@@ -40,5 +40,21 @@ background-color: white !important;
 
 }
 .position-bottom{
-  
+
+}
+.photo-contact{
+  margin: 30vh 0 0 5vh;
+}
+/*  Respuestas*/
+.seccion-respuestas{
+  background-color: #eeeded;
+  padding-bottom: 10vh;
+}
+
+/*  boton contactanos*/
+.diseño-boton-contacto{
+  text-align: center;
+  font-size: 3vh;
+  margin: 5vh 0 0 0;
+  padding: 1.5vh 57vh 1.5vh 57vh;
 }
